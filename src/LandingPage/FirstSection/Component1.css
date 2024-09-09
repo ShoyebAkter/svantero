@@ -1,0 +1,17 @@
+.utilized{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 81.44px;
+    color: #FFFFFF;
+}
+.asia{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 81.44px;
+    background: linear-gradient(90deg, #5AE908 0%, #FFFFFF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.component1{
+
+}
