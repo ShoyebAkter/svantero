@@ -1,0 +1,26 @@
+.work{
+    color: #51B11A;
+margin-bottom: 108px;
+font-family: "Roboto";
+font-size: 96.483px;
+font-style: normal;
+font-weight: 700;
+line-height: 108.544px;
+}
+.revenue{
+    color: #FFF;
+
+font-family: "Roboto Condensed";
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.topSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 84px;
+    margin-right: 74px;
+    margin-left: 100px;
+}

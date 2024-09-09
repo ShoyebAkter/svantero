@@ -1,0 +1,69 @@
+.submitForm{
+    display: flex;
+    flex-direction: column;
+width: 486.673px;
+height: 345.31px;
+justify-content: center;
+align-items: center;
+background: #00050B;
+}
+.submit{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 31.753px;
+font-style: normal;
+font-weight: 700;
+line-height: 60.604px;
+}
+.formSec{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 38.076px;
+margin-bottom: 14px;
+color: #FFF;
+
+}
+.formSec label{
+    font-family: "Inter";
+font-size: 8.753px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 100.595px;
+height: 13.13px;
+text-align: right;
+}
+.required{
+    color: #F00;
+}
+.formSec input{
+    width: 274.41px;
+height: 26.259px;
+border-radius: 2.626px;
+background: #D9D9D9;
+}
+.formSec select{
+    width: 274.41px;
+height: 26.259px;
+border-radius: 2.626px;
+background: #D9D9D9;
+}
+.submitButton{
+    border-radius: 2.626px;
+border: 1.751px solid #FFF;
+
+background: #51B11A;
+padding: 6.127px 14.005px;
+display: flex;
+justify-content: center;
+color: #FFF;
+
+font-family: Inter;
+font-size: 10.504px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 25px;
+}

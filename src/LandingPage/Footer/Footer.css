@@ -1,0 +1,39 @@
+.line{
+    width: 3.969px;
+height: 427.668px;
+background: #FFF;
+margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    gap: 100px;
+}
+.footerImg{
+    margin-left: 50px;
+    width: 342px;
+height: 167px;
+}
+.footerLeft{
+    display: flex;
+    justify-content: space-between;
+   gap: 150px;
+}
+.footerInfo{
+    color: #FFF;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 50px;
+}
+.touch{
+    color: #FFF;
+margin-bottom: 20px;
+font-family: "Roboto Condensed";
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 60px;
+}
