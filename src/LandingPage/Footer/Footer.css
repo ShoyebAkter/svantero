@@ -7,6 +7,7 @@ margin-bottom: 50px;
 .footer{
     display: flex;
     gap: 100px;
+    margin-top: 20px;
 }
 .footerImg{
     margin-left: 50px;

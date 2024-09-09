@@ -12,9 +12,13 @@ const LandingPage = () => {
     <div className='landingPage'>
         <Header/>
         <FirstSection/>
+        <div className='strokeLine'></div>
         <SecondSection/>
+        <div className='strokeLine'></div>
         <ThirdSec/>
+        <div className='strokeLine'></div>
         <FourthSec/>
+        <div className='strokeLine'></div>
         <Footer/>
     </div>
   )
