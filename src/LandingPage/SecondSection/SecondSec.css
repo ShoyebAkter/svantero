@@ -16,6 +16,14 @@ align-items: center;
 justify-content: center;
 margin-inline: auto;
 margin-top: 88px;
+color: #000;
+
+text-align: center;
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .rightSection{
     margin-top: 60px;

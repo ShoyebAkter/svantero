@@ -10,8 +10,8 @@ const Footer = () => {
             <div className="touch">Get in Touch</div>
             <div className="footerInfo">SVANTERO LTD</div>
             <div className="footerInfo">info@svantero.com</div>
-            <div className="footerInfo">71-75 Shelton Street, Covent Garden London,</div>
-            <div className="footerInfo">United KingdomWC2H 9JQ</div>
+            <div className="footerInfo">71-75 Shelton Street, Covent Garden </div>
+            <div className="footerInfo">London,United Kingdom <br/> WC2H 9JQ</div>
             
         </div>
       </div>
