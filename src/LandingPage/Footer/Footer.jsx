@@ -3,7 +3,7 @@ import Form from "./Form";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <div className="footerLeft">
         <img className="footerImg" src="/footerlogo.png" alt=""/>
         <div >

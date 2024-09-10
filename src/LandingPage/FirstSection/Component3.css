@@ -5,6 +5,7 @@ justify-content: space-evenly;
 align-items: center;
 gap: 41px;
 align-self: stretch;
+margin-bottom: 30px;
 }
 .trust{
     color: #797980;
@@ -24,5 +25,5 @@ line-height: 151%;
     color: #797980;
 }
 .imageSec{
-    color: #797980;
+    filter: grayscale(100%);
 }

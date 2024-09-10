@@ -5,23 +5,23 @@ const Component3 = () => {
     <div className="component3">
       <div className='trust'>Trusted by: </div>
       <div className="shopifySec">
-        <img src="/shopifylogo.png" alt="" />
+        <img  className='imageSec' src="/shopifylogo.png" alt="" />
         <img src="/shopifytext.png" alt="" />
       </div>
       <div>
-        <img src="/amazon.png" alt="" />
+        <img  className='imageSec' src="/amazon.png" alt="" />
       </div>
       <div>
-        <img src="/alibaba.png" alt="" />
+        <img  className='imageSec' src="/alibaba.png" alt="" />
       </div>
       <div>
-        <img src="/ebay.png" alt="" />
+        <img  className='imageSec' src="/ebay.png" alt="" />
       </div>
       <div className="snapdealSec">
-        <img src="/snapdeallogo.png" alt="" />
+        <img  className='imageSec' src="/snapdeallogo.png" alt="" />
         <img src="/snapdeal.png" alt="" />
       </div>
-      <div>
+      <div className='imageSec'>
         <img src="/walmart.png" alt="" />
       </div>
     </div>

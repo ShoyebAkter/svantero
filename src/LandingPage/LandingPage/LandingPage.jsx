@@ -16,8 +16,8 @@ const LandingPage = () => {
         <SecondSection/>
         <div className='strokeLine'></div>
         <ThirdSec/>
-        <div className='strokeLine'></div>
-        <FourthSec/>
+        {/* <div className='strokeLine'></div>
+        <FourthSec/> */}
         <div className='strokeLine'></div>
         <Footer/>
     </div>
