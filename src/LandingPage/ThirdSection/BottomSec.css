@@ -26,3 +26,20 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+@media (max-width: 768px) {
+    .bottomSec{
+        gap: 10px;
+        margin: 5px;
+        
+    }
+    .strategy{
+        font-size: 8px;
+    }
+    .facilities{
+        font-size: 8px;
+    }
+    .infiniteImg{
+        width: 200px;
+    }
+}

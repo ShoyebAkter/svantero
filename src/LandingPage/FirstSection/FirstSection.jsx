@@ -10,7 +10,7 @@ const FirstSection = () => {
       <Component1/>
       <Component2/>
       </div>
-      <Component3/>
+      {/* <Component3/> */}
     </div>
   )
 }

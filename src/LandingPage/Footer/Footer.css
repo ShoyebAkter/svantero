@@ -38,3 +38,31 @@ font-weight: 500;
 line-height: normal;
 margin-top: 60px;
 }
+
+@media (max-width: 768px) {
+    .line{
+        display: none;
+    }
+    .footer{
+
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footerImg{
+        margin-left: 5px;
+        width: 250px;
+        height: 167px;
+    }
+    .footerLeft{
+        gap: 10px;
+    }
+    .footerInfo{
+        font-size: 8px;
+        margin-right: 5px;
+    }
+    .touch{
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    }
+}
