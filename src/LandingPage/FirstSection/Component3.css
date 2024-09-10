@@ -18,12 +18,36 @@ line-height: 151%;
 }
 .shopifySec{
     display: flex;
-    color: #797980;
 }
 .snapdealSec{
     display: flex;
-    color: #797980;
 }
 .imageSec{
     filter: grayscale(100%);
+}
+
+@media (max-width: 768px) {
+    .component3{
+        display: flex;
+    padding: 2px 9px;
+    gap: 11px;
+    margin-bottom: 15px;
+    }
+    .trust{
+    font-size: 8.707px;
+    line-height: 151%;
+    }
+    .imageSec{
+        width: 30px;
+
+    }
+    .designLogo{
+        width: 20px;
+        height: 20px;
+        filter: grayscale(100%);
+    }
+    .nameLogo{
+        width: 50px;
+    }
+    
 }

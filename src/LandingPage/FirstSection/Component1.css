@@ -12,6 +12,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.component1{
-
+@media (max-width: 768px) {
+    .component1{
+        padding-block: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .utilized{
+        font-size: 30px;
+    }
+    .asia{
+        font-size: 30px;
+    }
 }

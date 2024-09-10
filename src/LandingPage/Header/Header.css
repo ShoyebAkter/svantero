@@ -1,77 +1,128 @@
 /* Header.css */
 
+/* Base styles */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 38px; /* Adjust background as needed */
-  }
-  
-  .logo img {
-    height: 50px; /* Adjust logo size */
-    margin-left: 100px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding-inline: 120px;
+  padding-block: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 51.84px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  color: #fcfcfc;
+}
+
+.learn-more {
+  font-family: "Inter";
+  margin-left: 51.84px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8.068px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #335a28;
+  cursor: pointer;
+  width: 183px;
+  height: 49px;
+  padding: 8.068px;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Hide the navbar by default */
   .navbar {
-    display: flex;
-    align-items: center;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
     background-color: #000;
-    padding-inline: 120px;
-    padding-block: 40px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .navbar ul {
+
+  /* Show the navbar when active */
+  .navbar.active {
     display: flex;
-    list-style: none;
-    gap: 51.84px; /* Equal gap between items */
-    margin: 0;
-    padding: 0;
   }
-  
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .learn-more {
+    margin-top: 20px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .logo img{
+    margin-left: 20px;
+  }
+
+  .navbar ul {
+    gap: 30px;
+  }
+
   .navbar li {
     margin: 0;
   }
-  .home{
-    color: #FCFCFC;
-  }
-  .about{
-    color: #FFF;
-  }
-  .impact{
-    color: #FBFCFF;
-  }
-  .why{
-    color: #FBFDFF;
-  }
-  .blogs{
-    color: #FAFBFF;
-  }
+
   .navbar a {
-    text-decoration: none;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.36px;
+    font-size: 24px;
   }
-  
-  .learn-more {
-    font-family: "Inter";
-    margin-left: 51.84px;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8.068px;
-    font-size: 18px;
-    font-weight: 400;
-background: #335A28;
-    cursor: pointer;
-    width: 183px;
-height: 49px;
-padding: 8.068px;
-  }
-  
-  .learn-more:hover {
-    background-color: #0056b3;
-  }
-  
+}
