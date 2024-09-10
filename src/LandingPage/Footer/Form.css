@@ -17,6 +17,11 @@ font-weight: 700;
 line-height: 60.604px;
 margin-top: 40px;
 }
+.errorMsg{
+    font-size: 10px;
+    color: red;
+    margin-bottom: 5px;
+}
 .formSec{
     display: flex;
 justify-content: center;
