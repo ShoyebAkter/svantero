@@ -72,8 +72,10 @@ margin-top: 25px;
 @media (max-width: 768px) {
     .submitForm{
     width: 300px;
+    height: 100%;
     padding: 10px;
     margin-inline: auto;
+    padding-top: 20px;
     }
     .submit{
     font-size: 16px;

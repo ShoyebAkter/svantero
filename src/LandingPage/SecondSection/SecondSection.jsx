@@ -5,7 +5,7 @@ const SecondSection = () => {
     <div className="secondSec">
       <div>
         <img className="flowerSec" src="/flower.png" alt="" />
-        <div className="download"><a href="#footer">Download Whitepaper</a></div>
+        <a href="#footer"><div className="download">Download Whitepaper</div></a>
       </div>
       <div className="rightSection">
         <div className="how">How is Svantero different?</div>
