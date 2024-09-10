@@ -33,7 +33,11 @@ const Form = () => {
       });
 
       if (response.ok) {
-        alert('Form Submitted Successfully!');
+        setFirstName("");
+        setLastName("")
+        setEmail("");
+        setCompany("");
+        setSelectedCountry("");
         
       } else {
         alert('Form Submission Failed!');
